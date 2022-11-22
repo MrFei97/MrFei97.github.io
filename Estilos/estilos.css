@@ -261,7 +261,6 @@ ul, ol {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
     margin-top: 1rem;
  
 }
@@ -274,6 +273,7 @@ ul, ol {
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-top: 1rem;
  
 }
