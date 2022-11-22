@@ -70,7 +70,9 @@ ul, ol {
    
 
   
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 #block2 {
@@ -79,7 +81,9 @@ ul, ol {
     height: 100px;
  
     
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 #block3 {
@@ -90,7 +94,9 @@ ul, ol {
 
  
 
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 #block4 {
@@ -100,7 +106,9 @@ ul, ol {
     height: 900px;
 
     margin-top: -1000px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 ul, ol {
@@ -111,26 +119,29 @@ ul, ol {
     background-color: rgb(133, 133, 133);
     color: black;
     text-decoration: none;
-    display: block;
+    display: flex;
+    flex-direction: column;
     height: 450px;
     width: 900px;
  
 }
 
 .nav2 li a:hover {
-    background-color: grey;
+    background-color: rgb(236, 0, 0);
     
 }
 
 .nav2 li ul {
-    display: center;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     min-width: 200px;
     
 }
 
 .nav2 li:hover>ul {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav2>li {
@@ -142,22 +153,24 @@ ul, ol {
 }
 
 .nav3 li a {
-    background-color: rgb(133, 133, 133);
+    background-color: rgb(231, 0, 0);
     color: black;
     text-decoration: none;
-    display: block;
+    display: flex;
+    flex-direction: column;
     height: 450px;
     width: 900px;
 }
 
 .nav3 li a:hover {
-    background-color: grey;
+    background-color: rgb(252, 0, 0);
     
     
 }
 
 .nav3 li ul {
-    display: center;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     min-width: 200px;
 }
@@ -171,7 +184,8 @@ ul, ol {
     color: rgb(238, 255, 0);
     text-decoration: none;
     height: 450px;
-    display: block;
+    display: flex;
+    flex-direction: column;
     
     
     
@@ -193,14 +207,16 @@ ul, ol {
     text-align: center;
     color: rgb(255, 238, 0);
     font-size:100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .titulo2 {
     text-align: center;
     color: rgb(255, 238, 0);
     font-size:220%;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .banner{

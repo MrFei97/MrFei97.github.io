@@ -18,15 +18,15 @@ body {
 /*Index*/
 
 .mainA{
-    margin: 10px;
-}
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 #header {
-    margin: 1px;
-    width: 700px;
-    position: center;
-
-    display: inline-block;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 ul, ol {
@@ -238,37 +238,48 @@ ul, ol {
 }
 
 .footer{
-    margin-top: -400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;;
     color: rgb(255, 255, 255);
-    text-align: right;
 }
 
 .footer2{
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;;
     color: rgb(255, 255, 255);
-    text-align: right;
 }
 
-.footer{
-    margin-top: 100px;
-    color: rgb(255, 255, 255);
-    text-align: right;
-}
 
-.footer2{
-    margin-top: 10px;
-    color: rgb(255, 255, 255);
-    text-align: right;
-}
 .textBlocks{
     width: 900px;
-    height: 400px;
+    height: 500px;
     background-color: rgba(83, 78, 78, 0.5);
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    margin-top: 1rem;
  
 }
+
+.textBlocks2{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(83, 78, 78, 0.5);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+ 
+}
+
+
+
 .margen{
     margin-right: 5px;
 }
