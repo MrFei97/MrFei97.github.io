@@ -65,13 +65,14 @@ ul, ol {
   
     width: 300px;
     height:100px;
-    position: center;
-    margin-right: 650px;
-   
-   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
 
-  
-    display: inline-block;
+    
+
 }
 
 #block2 {
@@ -79,8 +80,7 @@ ul, ol {
     width: 300px;
     height: 100px;
  
-    
-    display: inline-block;
+   
 }
 
 #block3 {
@@ -91,7 +91,7 @@ ul, ol {
 
  
 
-    display: inline-block;
+   
 }
 
 #block4 {
@@ -101,7 +101,7 @@ ul, ol {
     height: 900px;
 
     margin-top: -1000px;
-    display: inline-block;
+
 }
 
 ul, ol {
@@ -254,11 +254,12 @@ ul, ol {
 
 .textBlocks{
     width: 900px;
-    height: 400px;
+    height: 450px;
     background-color: rgba(83, 78, 78, 0.5);
     color: rgb(255, 255, 255);
     text-align: center;
     margin-left: 70px;
+    margin-top: 70px;
  
 }
 
